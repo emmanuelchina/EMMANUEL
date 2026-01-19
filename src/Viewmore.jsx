@@ -78,12 +78,12 @@ export default function Projectview() {
               <h4 className="text-xl font-semibold mb-3 text-gray-900 dark:text-gray-100">
                 {project.name}
               </h4>
-              
-              <p className="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed text-sm">
+
+              <p className="text-gray-600 dark:text-gray-300 mb-6 bg-white leading-relaxed text-sm">
                 {project.description}
               </p>
 
-              <div className="flex justify-center">
+              <div className="flex justify-center bg-white">
                 <motion.a
                   href={project.demoLink}
                   target="_blank"
