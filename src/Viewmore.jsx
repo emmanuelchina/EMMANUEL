@@ -75,11 +75,11 @@ export default function Projectview() {
 
 
             <div className="p-6">
-              <h4 className="text-xl font-semibold mb-3 text-gray-900 dark:text-gray-600">
+              <h4 className="text-xl font-semibold mb-3 text-gray-900 dark:text-slate-900">
                 {project.name}
               </h4>
 
-              <p className="text-gray-600 dark:text-gray-700 mb-6 bg-white leading-relaxed text-sm">
+              <p className="text-gray-600 dark:text-slate-800 mb-6 bg-white leading-relaxed text-sm">
                 {project.description}
               </p>
 

@@ -55,11 +55,11 @@ export default function Projects() {
             </div>
 
             <div className="p-6">
-              <h4 className="text-xl font-semibold mb-3 text-gray-900 dark:text-gray-500">
+              <h4 className="text-xl font-semibold mb-3 text-gray-900 dark:text-slate-900">
                 {project.name}
               </h4>
 
-              <p className="text-gray-600 dark:text-gray-700 bg-white mb-6 leading-relaxed text-sm">
+              <p className="text-gray-600 dark:text-slate-800 bg-white mb-6 leading-relaxed text-sm">
                 {project.description} 
               </p>
 
