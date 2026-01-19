@@ -9,7 +9,7 @@ export default function About() {
 const [open, setOpen] = useState(false);
 const eduRef = useRef(null);
 
-// Auto close Education when scrolled away
+
 useEffect(() => {
 const observer = new IntersectionObserver(
 ([entry]) => {
@@ -38,7 +38,7 @@ Full-Stack Developer building modern, scalable web applications
 
 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 
-{/* EDUCATION */}
+
 <div
 ref={eduRef}
 onClick={() => setOpen(!open)}
@@ -61,7 +61,7 @@ Hiljima Computer Training School
 learning React and Node.js through hands-on, real-world projects.
 </p>
 
-{/* Expandable image */}
+
 <div
 className={`overflow-hidden transition-all duration-500 ${
 open ? "max-h-96 mt-6" : "max-h-0"
@@ -83,7 +83,6 @@ Click to view training photo
 </p>
 </div>
 
-{/* EXPERIENCE */}
 <div className="bg-white rounded-xl p-6 shadow-lg">
 <h3 className="text-xl font-semibold mb-4 text-gray-700 flex items-center gap-3">
 <FaBriefcase className="h-8 w-8 text-blue-500" />
@@ -97,7 +96,7 @@ pages, and full-stack projects using modern technologies.
 </p>
 </div>
 
-{/* WHAT I USE */}
+
 <div className="bg-white rounded-xl p-6 shadow-lg">
 <h3 className="text-xl font-semibold mb-6 text-gray-700 flex items-center gap-3">
 <FaTools className="h-8 w-8 text-blue-500" />

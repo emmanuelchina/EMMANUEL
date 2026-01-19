@@ -20,13 +20,13 @@ export default function Hero() {
 
           <div className="space-y-2">
             <h1 className="text-2xl font-bold text-slate-800 leading-tight">
-              Hi I'm Emmanuel
+              Hi, I'm Emmanuel.
             </h1>
             <h2 className="text-3xl  font-black text-gray-900 leading-none">
-              Full-Stack Engineer
+            A Full-Stack Developer
             </h2>
             <p className="text-lg lg:text-xl text-slate-600 leading-relaxed font-light max-w-2xl">
-            who enjoys crafting modern, responsive, and creative web experiences. I specialize in React Node.js Express  and Tailwind CSS to build user-friendly interfaces for business and individuals.
+            who enjoys crafting modern, responsive, and creative web experiences. I specialize in <span className="font-bold">React, Node.js, Express,</span> and <span className="font-bold">Tailwind CSS</span> to build user-friendly interfaces for businesses and individuals.
 
 
             </p>
@@ -34,7 +34,7 @@ export default function Hero() {
 
           <div className="flex gap-4">
             <a
-              href="https://wa.me/2341234567890"
+              href="https://wa.me/+2349151265480"
               target="_blank"
               rel="noopener noreferrer"
               className="group flex items-center p-2"
@@ -50,9 +50,8 @@ export default function Hero() {
               </div>
             </a>
 
-            {/* LinkedIn */}
             <a
-              href="https://linkedin.com/in/emmanuel"
+              href="https://www.linkedin.com/in/emmanuel-igwe"
               target="_blank"
               rel="noopener noreferrer"
               className="group flex items-center p-2"
@@ -68,9 +67,9 @@ export default function Hero() {
               </div>
             </a>
 
-            {/* Email */}
+      
             <a
-              href="mailto:hello@emmanuel.dev"
+              href="mailto:igweemmanuelchina@gmail.com"
               className="group flex items-center p-2"
             >
               <div className="w-12 h-12 bg-red-500 rounded-2xl flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-200">
@@ -86,58 +85,7 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Contact Form */}
-        {/* <div className="w-full lg:w-1/3 space-y-6">
-          <div className="bg-white/80 backdrop-blur-sm border border-slate-200 rounded-3xl p-8 shadow-2xl">
-            <h3 className="text-xl font-bold text-slate-800 mb-6 text-center">
-              Let's Connect
-            </h3>
-            <form onSubmit={handleSubmit} className="space-y-4">
-              <div>
-                <input
-                  type="text"
-                  name="name"
-                  placeholder="Your Name"
-                  value={formData.name}
-                  onChange={handleChange}
-                  className="w-full px-4 py-3 border border-slate-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all duration-200 text-sm"
-                  required
-                />
-              </div>
-
-              <div>
-                <input
-                  type="email"
-                  name="email"
-                  placeholder="Your Email"
-                  value={formData.email}
-                  onChange={handleChange}
-                  className="w-full px-4 py-3 border border-slate-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all duration-200 text-sm"
-                  required
-                />
-              </div>
-
-              <div>
-                <textarea
-                  name="description"
-                  placeholder="Tell me about your project..."
-                  rows={4}
-                  value={formData.description}
-                  onChange={handleChange}
-                  className="w-full px-4 py-3 border border-slate-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all duration-200 text-sm resize-none"
-                  required
-                />
-              </div>
-
-              <button
-                type="submit"
-                className="w-full bg-gradient-to-r from-blue-500 to-blue-600 text-white font-semibold py-3 px-6 rounded-xl shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 text-sm"
-              >
-                Send Message
-              </button>
-            </form>
-          </div>
-        </div> */}
+      
       </div>
     </section>
   );
