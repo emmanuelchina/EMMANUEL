@@ -34,7 +34,7 @@ export default function Projects() {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 bg-white">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 ">
         {projects.map((project, index) => (
           <motion.div
             key={index}
@@ -63,7 +63,7 @@ export default function Projects() {
                 {project.description} 
               </p>
 
-              <div className="flex justify-center bg-white">
+              <div className="flex justify-center">
                 <motion.a
                   href={project.demoLink}
                   target="_blank"
