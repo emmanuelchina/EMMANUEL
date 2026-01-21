@@ -14,7 +14,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
           <div className="flex items-start gap-4 max-w-xl">
             <img
-              src="/avatar.png"
+              src="/favicon.ico"
               alt="Avatar"
               className="w-10 h-10 rounded-full"
             />
@@ -30,8 +30,11 @@ export default function Footer() {
             <a href="/" className="hover:text-red-500 transition">
               Profile
             </a>
-            <a href="/articles" className="hover:text-red-500 transition">
+            <a href="/viewmore" className="hover:text-red-500 transition">
               Projects
+            </a>
+              <a href="/" className="hover:text-red-500 transition">
+              Contact
             </a>
          
           </nav>
@@ -62,7 +65,7 @@ function SocialIcon({ href, icon }) {
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      className="w-10 h-10 flex items-center justify-center rounded-lg border border-red-100 text-gray-600 hover:text-red-500 hover:border-red-300 transition"
+      className="w-10 h-10 flex items-center justify-center rounded-lg border border-blue-100 text-gray-600 hover:text-blue-500 hover:border-blue-300 transition"
     >
       {icon}
     </a>
