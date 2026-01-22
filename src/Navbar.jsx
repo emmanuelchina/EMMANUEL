@@ -24,7 +24,7 @@ export default function Navbar() {
                 E
               </div>
               <span className="font-bold text-xl text-slate-800">
-                Emmanuel
+                Emmanuel.js
               </span>
             </div>
 
