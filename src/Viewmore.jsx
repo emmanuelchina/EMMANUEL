@@ -24,7 +24,7 @@ export default function Projectview() {
     {
       name: "king's Kitchen Website",
       image: "/img/kings.png",
-      demoLink: "https://igwe-s-kitchen.vercel.app/",
+      demoLink: "https://igwe-s-kitchen-f2i3.vercel.app/",
       description: "Modern restaurant website featuring menu showcase, online ordering system, and smooth animations with Tailwind CSS."
     }, 
     {
