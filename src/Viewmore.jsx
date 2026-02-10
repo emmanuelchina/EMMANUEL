@@ -22,8 +22,8 @@ export default function Projectview() {
       description: "Complete e-commerce solution with product catalog, shopping cart, checkout flow, and responsive design for mobile shopping."
     },
     {
-      name: "Igwe's Kitchen Website",
-      image: "/img/kitchen.png",
+      name: "king's Kitchen Website",
+      image: "/img/kings.png",
       demoLink: "https://igwe-s-kitchen.vercel.app/",
       description: "Modern restaurant website featuring menu showcase, online ordering system, and smooth animations with Tailwind CSS."
     }, 
